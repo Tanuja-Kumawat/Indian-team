@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #d32121;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+}
+
+.lapel img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cricketer-info {
+    margin-left: 20px;
+}
+
+.cricketer-info h1 {
+    margin: 0;
+    font-size: 24px;
+
+}
+
+.cricketer-info p {
+    margin: 10px 0 0;
+    color: white;
+}
+
+.ipl-records {
+    padding: 25px;
+    background-color: #e7d4d4;
+}
+
+.ipl-records h2 {
+    margin-top: 5px;
+}
+
+.record {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.record-info {
+    flex: 1;
+}
+
+.record-img img {
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video {
+    padding: 20px;
+    background-color: #e31d1d;
+}
+
+.video h2 {
+    margin-top: 0;
+}
+
+.video-gallery {
+    display: flex;
+    gap: 20px; /* Reduced gap for better spacing */
+    background-color: rgb(229, 229, 241);
+    padding: 10px; /* Added padding for better spacing */
+}
+
+.video-gallery img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.view-more {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
